@@ -11,7 +11,6 @@
 #include <cstdio>
 #include <algorithm>
 #include <vector>
-#include <queue>
 using namespace std;
 const int maxn = 105;
 int e[maxn];
@@ -35,7 +34,6 @@ inline int cf(int u,int v){
 
 
 int stk[maxn];
-queue<int> q;
 int tl;
 
 void push(int u,int v){ //if d[u]==d[v]+1 and c[u][v]-f[u][v]>0
